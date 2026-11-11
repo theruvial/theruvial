@@ -2,7 +2,7 @@
 
 **Self-taught developer since 2019. Python first, C# and Unity second. I build complete systems and keep them running: the bot, the database, the web UI and the server under it.**
 
-📍 New Port Richey, FL · 🔎 Looking for an entry-level Python, automation or junior developer role (remote or Tampa Bay) · 💼 [LinkedIn](https://www.linkedin.com/in/theaarcadia/)
+📍 New Port Richey, FL · 🔎 Looking for an entry-level Python, automation or junior developer role (remote or Tampa Bay) · 💼 [LinkedIn](https://www.linkedin.com/in/theaarcadia/) · 📄 [Resume (PDF)](https://github.com/theruvial/theruvial/blob/main/Thea_Arcadia_Resume.pdf)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat&logo=dotnet&logoColor=white)
