@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- One-page resume. Every fact here must come from ../Thea_Arcadia_CV_full.md (the source of truth). Change that file first, then this one. -->
+<meta charset="utf-8">
+<title>Thea Arcadia – Resume</title>
+<style>
+  @page { size: Letter; margin: 0.42in 0.55in; }
+  :root { --ink:#1a1a1a; --muted:#555; --accent:#2b4c7e; --rule:#c9d3e3; }
+  * { box-sizing: border-box; }
+  html, body { margin:0; padding:0; background:#fff; }
+  body { font-family: Inter, "DejaVu Sans", Arial, sans-serif; color:var(--ink); font-size:9.3pt; line-height:1.28; font-feature-settings:"calt" 0, "liga" 0; }
+  a { color:inherit; text-decoration:none; }
+  header { text-align:center; margin-bottom:6pt; }
+  h1 { font-size:20pt; letter-spacing:0.5pt; margin:0; font-weight:700; }
+  .pronouns { font-size:9.5pt; font-weight:400; color:var(--muted); letter-spacing:0; vertical-align:middle; }
+  .tagline { color:var(--accent); font-weight:600; font-size:10pt; margin-top:1pt; }
+  .contact { color:var(--muted); font-size:8.8pt; margin-top:2pt; }
+  .contact span + span::before { content:"·"; margin:0 5pt; color:#999; }
+  h2 { font-size:9.5pt; text-transform:uppercase; letter-spacing:1.2pt; color:var(--accent); margin:6pt 0 2.5pt; padding-bottom:1.5pt; border-bottom:1px solid var(--rule); }
+  h3 { font-size:8.6pt; text-transform:uppercase; letter-spacing:0.8pt; color:var(--muted); margin:4pt 0 1pt; font-weight:600; }
+  p { margin:0; }
+  .entry { margin-top:3pt; }
+  .head { display:flex; justify-content:space-between; gap:8pt; }
+  .head .title { font-weight:700; }
+  .head .meta { color:var(--muted); font-weight:400; }
+  .head .when { color:var(--muted); white-space:nowrap; font-size:8.8pt; }
+  ul { margin:1pt 0 0 0; padding-left:12pt; }
+  li { margin:0.5pt 0; }
+  .skills { display:grid; grid-template-columns: 7.2em 1fr; column-gap:6pt; row-gap:1pt; }
+  .skills b { font-weight:600; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Thea Arcadia <span class="pronouns">(she/her)</span></h1>
+  <div class="tagline">Junior Software Developer · Python · C# · Automation</div>
+  <div class="contact">
+    <span>New Port Richey, FL · open to remote</span>
+    <span>theruvial237@gmail.com</span>
+    <!--PHONE-->
+  </div>
+  <div class="contact">
+    <span><a href="https://www.linkedin.com/in/theaarcadia/">linkedin.com/in/theaarcadia</a></span>
+    <span><a href="https://github.com/theruvial">github.com/theruvial</a></span>
+    <span><a href="https://theruvial.com">theruvial.com</a></span>
+  </div>
+</header>
+
+<h2>Summary</h2>
+<p>Self-taught developer with 7 years of personal projects, strongest in Python, also C#/.NET and Unity. Hands-on with complete systems end to end: a Discord bot, its database and web UI, and the homelab it runs on. Since 2026, also designing projects and directing AI coding tools to build them, including a self-trained text classifier.</p>
+
+<h2>Technical Skills</h2>
+<div class="skills">
+  <b>Languages</b><span>Python (strongest), C#, SQL (CTEs, window functions), PowerShell, bash</span>
+  <b>Frameworks</b><span>discord.py (async, event-driven), .NET 6, Discord.NET, Unity, SetFit / PyTorch</span>
+  <b>Data &amp; web</b><span>PostgreSQL, SQLite, JSON APIs, webhooks with HMAC verification, nginx, Let's Encrypt</span>
+  <b>Infra &amp; tools</b><span>Arch Linux, Proxmox VE, ZFS, TrueNAS, Git and GitHub (branches, PRs, merges), AI coding assistants</span>
+</div>
+
+<h2>Projects</h2>
+<h3>Hand-written (2019–2025)</h3>
+<div class="entry">
+  <div class="head"><span><span class="title">Astrabot and theaBot</span> <span class="meta">— Python Discord bot and its C# rewrite · <a href="https://github.com/theruvial/Astrabot">github.com/theruvial/Astrabot</a></span></span><span class="when">2019 – present</span></div>
+  <ul>
+    <li>Built Astrabot in discord.py (async, event-driven) on SQLite/PostgreSQL: reaction roles, a shop, task tracking and a points economy on an append-only ledger, with SQL written by hand, including a window-function CTE.</li>
+    <li>Rewrote it in C# as <a href="https://github.com/theruvial/theaBot">theaBot</a> (2022): .NET 6, Discord.NET, dependency injection and slash commands.</li>
+    <li>Extended it in 2026 (AI-assisted): an audiobook request site, a <code>/wiki</code> command and cogs that update themselves from GitHub.</li>
+  </ul>
+</div>
+<div class="entry">
+  <div class="head"><span><span class="title">Co-op multiplayer Unity game</span> <span class="meta">— Aboard the Astra · 4-person team · C#</span></span><span class="when">2020 – 2021, resumed 2026</span></div>
+  <ul><li>Wrote 247 commits: boss AI and cutscenes, status effects, a combat overhaul and client/server sync fixes.</li></ul>
+</div>
+<div class="entry">
+  <div class="head"><span><span class="title">Turn-based Unity game</span> <span class="meta">— Rouge · 5-person team (work in progress) · C#</span></span><span class="when">2023 – 2025</span></div>
+  <ul><li>Wrote 380+ commits and merged 44 pull requests: hero abilities, status effects, items, traits and a JSON save system.</li></ul>
+</div>
+
+<h3>Self-designed, built with AI coding tools (2026)</h3>
+<div class="entry">
+  <div class="head"><span><span class="title">AstraThought</span> <span class="meta">— task classifier · Python, SetFit, PyTorch · <a href="https://github.com/theruvial/AstraThought">github.com/theruvial/AstraThought</a></span></span><span class="when">2026</span></div>
+  <ul><li>Trained the model on 1,911 hand-labelled messages; it scores 98% precision and 92% recall on 60 real messages it never saw. Unsure calls go to a human, and each ruling becomes new training data.</li></ul>
+</div>
+<div class="entry">
+  <div class="head"><span><span class="title">Mechanics wiki, Aboard the Astra Remake</span> <span class="meta">— Python, HTML/CSS/JS</span></span><span class="when">2026</span></div>
+  <ul><li>Generates a 19-page wiki from the game's source code. The backend rejects any request without its shared secret and checks GitHub webhook signatures with HMAC.</li></ul>
+</div>
+
+<h3>Infrastructure</h3>
+<div class="entry">
+  <div class="head"><span><span class="title">Homelab and Linux</span> <span class="meta">— self-run · Proxmox VE, ZFS, nginx, Arch Linux</span></span><span class="when"></span></div>
+<ul>
+  <li>Proxmox VE with TrueNAS and Ubuntu Server VMs on ZFS (handled the 8 → 9 upgrade); nginx reverse proxy with Let's Encrypt; <span style="white-space:nowrap">Pi-hole + Unbound</span> DNS.</li>
+  <li>Arch Linux as main OS for 4+ years on Btrfs with snapshots, recovered many times from broken NVIDIA driver updates.</li>
+</ul>
+</div>
+
+<h2>Experience</h2>
+<div class="entry">
+  <div class="head"><span><span class="title">Delivery Station Associate</span> <span class="meta">— Amazon</span></span><span class="when">Oct 2025 – present</span></div>
+  <ul>
+    <li>Filed 42 safety reports in 12 months, all resolved, including an OSHA electrical violation (fixed the next day) and an electric delivery van with a disconnected airbag connector (fixed the same day).</li>
+  </ul>
+</div>
+<div class="entry">
+  <div class="head"><span><span class="title">Overnight Shift Manager</span> <span class="meta">— McDonald's</span></span><span class="when">2024 – Oct 2025</span></div>
+  <ul><li>Promoted to main overnight manager of a 24-hour store within a year; ran a crew of 2–4, trained new crew, and handled the safe and cash counts with no discrepancies.</li></ul>
+</div>
+<div class="entry">
+  <div class="head"><span><span class="title">Automotive Service Technician</span> <span class="meta">— Nissan of Clearwater (2021 – 2022), Infiniti of Clearwater (2014 – 2021)</span></span><span class="when">2014 – 2022</span></div>
+  <ul><li>Supervised two technicians and dispatched their work; diagnosed 12-volt electrical faults from wiring diagrams; wrote repair orders in CDK.</li></ul>
+</div>
+
+<h2>Education</h2>
+<div class="head"><span><span class="title">GED</span> <span class="meta">— Florida Department of Education, New Port Richey</span></span><span class="when">2023</span></div>
+<div class="head" style="margin-top:2pt"><span><span class="title">Self-taught programming</span> <span class="meta">— Python via <i>Automate the Boring Stuff</i></span></span><span class="when">2019 – present</span></div>
+</body>
+</html>

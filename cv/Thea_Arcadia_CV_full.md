@@ -1,4 +1,4 @@
-# Thea Arcadia
+# Thea Arcadia <sub>(she/her)</sub>
 
 **Junior Software Developer** · New Port Richey, FL · Open to remote
 
