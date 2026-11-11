@@ -6,7 +6,7 @@ theruvial237@gmail.com · [linkedin.com/in/theaarcadia](https://www.linkedin.com
 
 ## Summary
 
-Self-taught developer with 7 years of personal projects (2019–present), strongest in Python, also C#/.NET and Unity. Built and ran Astrabot, a Discord bot with a PostgreSQL/SQLite ledger economy, and contributed hundreds of hand-written commits to two team Unity games. Run Arch Linux as my main OS and keep my own homelab on Proxmox, ZFS and nginx. Since 2026 I design and direct AI-assisted builds, including a text classifier I trained myself. Seeking an entry-level Python, automation or junior developer role, remote or in the Tampa Bay area.
+Self-taught developer with 7 years of personal projects (2019–present), strongest in Python, also C#/.NET and Unity. Built and ran Astrabot, a Discord bot with a PostgreSQL/SQLite ledger economy, and contributed hundreds of hand-written commits to two team Unity games. Run Arch Linux as my main OS and keep my own homelab on Proxmox, ZFS and nginx. Since 2026 I also design projects and direct AI coding tools to build them, including a text classifier I trained myself. Seeking an entry-level Python, automation or junior developer role, remote or in the Tampa Bay area.
 
 ## Technical Skills
 
@@ -24,7 +24,7 @@ Self-taught developer with 7 years of personal projects (2019–present), strong
 
 - Filed 42 safety reports through Amazon's Dragonfly system in 12 months; all 42 were resolved.
 - Flagged an OSHA electrical violation (29 CFR 1910.303(b)(2)), 10 power strips daisy-chained into one outlet at the device cage; it was fixed the next day.
-- Escalated an EV that had been running for weeks with a disconnected airbag connector; fleet maintenance reconnected it the same day.
+- Escalated an electric delivery van that had been running for weeks with a disconnected airbag connector; fleet maintenance reconnected it the same day.
 - Got anti-fatigue mats installed at the lights station within 5 days, and pushed for new mobile racking to stay locked out until associates were trained.
 - Work across pick and stage, lights, EV swapping and water spider roles.
 
@@ -51,16 +51,16 @@ Self-taught developer with 7 years of personal projects (2019–present), strong
 - Designed an append-only ledger for the bot's currency, so every balance change is recorded.
 - Wrote non-trivial SQL by hand, including a CTE with window functions for role logic.
 - Rewrote it in C# as [theaBot](https://github.com/theruvial/theaBot) (2022): .NET 6, Discord.NET, dependency injection, JSON configuration and slash commands.
-- Still running and extended in 2026; see the directed work below.
+- Still running and extended in 2026; see the AI-assisted work below.
 
-**Aboard the Astra** — co-op multiplayer Unity game, 4-person team · C# · *2020 – 2021, development resumed 2026*
+**Co-op multiplayer Unity game** — Aboard the Astra · 4-person team · C# · *2020 – 2021, development resumed 2026*
 
 - Wrote 247 commits: boss behaviours and cutscenes, status effects, a combat overhaul and new enemy types.
 - Fixed client/server bugs, such as cutscenes and animations not syncing to clients.
 - Cut rendering cost by drawing the starfield as a canvas image instead of projecting it onto a 3D object.
 - Development resumed in October 2026 as a Unity 6 remake with Netcode for GameObjects, which I'm working on with the original team.
 
-**Rouge** — turn-based Unity game, 5-person team (work in progress) · C# · *2023 – 2025*
+**Turn-based Unity game** — Rouge · 5-person team (work in progress) · C# · *2023 – 2025*
 
 - Wrote 380+ commits and merged 44 pull requests: hero abilities, status effects, items, traits and UI.
 - Moved the save system from binary files to JSON.
@@ -73,18 +73,18 @@ Self-taught developer with 7 years of personal projects (2019–present), strong
 
 - Converts a Google Takeout CSV into batches of YouTube channel links, with a step-by-step user guide.
 
-### Directed work (2026, AI-assisted: I designed it and directed AI coding tools)
+### Designed by me, built with AI coding tools (2026)
 
 **AstraThought** — task classifier for Discord · Python, SetFit, PyTorch, AI-assisted · [github.com/theruvial/AstraThought](https://github.com/theruvial/AstraThought)
 
 - Trained the model myself: 98% precision and 92% recall on 60 real Discord messages with human rulings, and 94% precision and 98% recall on a harder 100-row stress set.
 - Hand-labelled 1,911 training rows plus 1,000 synthetic ones; retrains after every 50 new human labels.
-- Runs as a local, loopback-only service; Discord approve/disagree buttons feed rulings back as labels.
+- Runs as a local, loopback-only service. Unsure calls go to a human through Discord approve/disagree buttons, and each ruling becomes new training data.
 
 **Aboard the Astra Remake: mechanics wiki** — Python, HTML/CSS/JS, AI-assisted · private repo, delivered by [Astrabot](https://github.com/theruvial/Astrabot)
 
 - 19-page wiki generated from the game's C# source and design docs, sent as a single HTML file by Astrabot's `/wiki` command, with a bundled copy as a fallback when the backend is down.
-- Generator and backend live in the game's private repo. Backend: loopback-only, shared-secret auth that fails closed, GitHub webhook with HMAC checks, and a tasks API.
+- Generator and backend live in the game's private repo. The backend only listens on the local machine, rejects any request without its shared secret (and refuses everything if no secret is set), checks GitHub webhook signatures with HMAC, and serves a tasks API.
 
 **Audiobook requests and signup** — Python, SQLite, SMTP, nginx, AI-assisted
 
@@ -100,4 +100,4 @@ Self-taught developer with 7 years of personal projects (2019–present), strong
 ## Education
 
 **GED** — Florida Department of Education, New Port Richey · *2023*\
-Self-taught in software development, 2019 – present.
+**Self-taught programming** — Python via *Automate the Boring Stuff with Python* · *2019 – present*
