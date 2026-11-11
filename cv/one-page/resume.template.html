@@ -33,7 +33,7 @@
 </head>
 <body>
 <header>
-  <h1>Thea Arcadia <span class="pronouns">(she/her)</span></h1>
+  <h1>Thea Arcadia</h1>
   <div class="tagline">Junior Software Developer · Python · C# · Automation</div>
   <div class="contact">
     <span>New Port Richey, FL · open to remote</span>
@@ -48,7 +48,7 @@
 </header>
 
 <h2>Summary</h2>
-<p>Self-taught developer with 7 years of personal projects, strongest in Python, also C#/.NET and Unity. Hands-on with complete systems end to end: a Discord bot, its database and web UI, and the homelab it runs on. Since 2026, also designing projects and directing AI coding tools to build them, including a self-trained text classifier.</p>
+<p>Self-taught developer with 7 years of personal projects, strongest in Python, also C#/.NET and Unity. Experienced building and running complete systems end to end: a Discord bot, its database and web UI, and the homelab it runs on. Since 2026, also designing projects and directing AI coding tools to build them, including a self-trained text classifier.</p>
 
 <h2>Technical Skills</h2>
 <div class="skills">
@@ -61,7 +61,7 @@
 <h2>Projects</h2>
 <h3>Hand-written (2019–2025)</h3>
 <div class="entry">
-  <div class="head"><span><span class="title">Astrabot and theaBot</span> <span class="meta">— Python Discord bot and its C# rewrite · <a href="https://github.com/theruvial/Astrabot">github.com/theruvial/Astrabot</a></span></span><span class="when">2019 – present</span></div>
+  <div class="head"><span><span class="title">Discord bot and its C# rewrite</span> <span class="meta">— Astrabot and theaBot · <a href="https://github.com/theruvial/Astrabot">github.com/theruvial/Astrabot</a></span></span><span class="when">2019 – present</span></div>
   <ul>
     <li>Built Astrabot in discord.py (async, event-driven) on SQLite/PostgreSQL: reaction roles, a shop, task tracking and a points economy on an append-only ledger, with SQL written by hand, including a window-function CTE.</li>
     <li>Rewrote it in C# as <a href="https://github.com/theruvial/theaBot">theaBot</a> (2022): .NET 6, Discord.NET, dependency injection and slash commands.</li>
@@ -70,7 +70,7 @@
 </div>
 <div class="entry">
   <div class="head"><span><span class="title">Co-op multiplayer Unity game</span> <span class="meta">— Aboard the Astra · 4-person team · C#</span></span><span class="when">2020 – 2021, resumed 2026</span></div>
-  <ul><li>Wrote 247 commits: boss AI and cutscenes, status effects, a combat overhaul and client/server sync fixes.</li></ul>
+  <ul><li>Wrote 247 commits: boss behaviours and cutscenes, status effects, a combat overhaul and client/server sync fixes.</li></ul>
 </div>
 <div class="entry">
   <div class="head"><span><span class="title">Turn-based Unity game</span> <span class="meta">— Rouge · 5-person team (work in progress) · C#</span></span><span class="when">2023 – 2025</span></div>
@@ -79,20 +79,20 @@
 
 <h3>Self-designed, built with AI coding tools (2026)</h3>
 <div class="entry">
-  <div class="head"><span><span class="title">AstraThought</span> <span class="meta">— task classifier · Python, SetFit, PyTorch · <a href="https://github.com/theruvial/AstraThought">github.com/theruvial/AstraThought</a></span></span><span class="when">2026</span></div>
+  <div class="head"><span><span class="title">Task classifier</span> <span class="meta">— AstraThought · Python, SetFit, PyTorch · <a href="https://github.com/theruvial/AstraThought">github.com/theruvial/AstraThought</a></span></span><span class="when">2026</span></div>
   <ul><li>Trained the model on 1,911 hand-labelled messages; it scores 98% precision and 92% recall on 60 real messages it never saw. Unsure calls go to a human, and each ruling becomes new training data.</li></ul>
 </div>
 <div class="entry">
-  <div class="head"><span><span class="title">Mechanics wiki, Aboard the Astra Remake</span> <span class="meta">— Python, HTML/CSS/JS</span></span><span class="when">2026</span></div>
-  <ul><li>Generates a 19-page wiki from the game's source code. The backend rejects any request without its shared secret and checks GitHub webhook signatures with HMAC.</li></ul>
+  <div class="head"><span><span class="title">Game mechanics wiki</span> <span class="meta">— Aboard the Astra Remake · Python, HTML/CSS/JS</span></span><span class="when">2026</span></div>
+  <ul><li>Generated a 19-page wiki from the game's source code. The backend rejects any request without its shared secret and checks GitHub webhook signatures with HMAC.</li></ul>
 </div>
 
 <h3>Infrastructure</h3>
 <div class="entry">
   <div class="head"><span><span class="title">Homelab and Linux</span> <span class="meta">— self-run · Proxmox VE, ZFS, nginx, Arch Linux</span></span><span class="when"></span></div>
 <ul>
-  <li>Proxmox VE with TrueNAS and Ubuntu Server VMs on ZFS (handled the 8 → 9 upgrade); nginx reverse proxy with Let's Encrypt; <span style="white-space:nowrap">Pi-hole + Unbound</span> DNS.</li>
-  <li>Arch Linux as main OS for 4+ years on Btrfs with snapshots, recovered many times from broken NVIDIA driver updates.</li>
+  <li>Proxmox VE with TrueNAS and Ubuntu Server VMs on ZFS, including the Proxmox 8 → 9 major upgrade; nginx reverse proxy with Let's Encrypt; <span style="white-space:nowrap">Pi-hole + Unbound</span> DNS.</li>
+  <li>Arch Linux as main OS for 4+ years on Btrfs with snapshots, repeatedly recovering it from broken NVIDIA driver updates.</li>
 </ul>
 </div>
 

@@ -1,4 +1,4 @@
-# Thea Arcadia <sub>(she/her)</sub>
+# Thea Arcadia
 
 **Junior Software Developer · Python · C# · Automation**
 
@@ -6,7 +6,7 @@ New Port Richey, FL · open to remote · theruvial237@gmail.com · [linkedin.com
 
 ## Summary
 
-Self-taught developer with 7 years of personal projects, strongest in Python, also C#/.NET and Unity. Hands-on with complete systems end to end: a Discord bot, its database and web UI, and the homelab it runs on. Since 2026, also designing projects and directing AI coding tools to build them, including a self-trained text classifier.
+Self-taught developer with 7 years of personal projects, strongest in Python, also C#/.NET and Unity. Experienced building and running complete systems end to end: a Discord bot, its database and web UI, and the homelab it runs on. Since 2026, also designing projects and directing AI coding tools to build them, including a self-trained text classifier.
 
 ## Technical Skills
 
@@ -19,30 +19,30 @@ Self-taught developer with 7 years of personal projects, strongest in Python, al
 
 ### Hand-written (2019–2025)
 
-**Astrabot and theaBot** — Python Discord bot and its C# rewrite · [github.com/theruvial/Astrabot](https://github.com/theruvial/Astrabot) · *2019 – present*
+**Discord bot and its C# rewrite** — Astrabot and theaBot · [github.com/theruvial/Astrabot](https://github.com/theruvial/Astrabot) · *2019 – present*
 - Built Astrabot in discord.py (async, event-driven) on SQLite/PostgreSQL: reaction roles, a shop, task tracking and a points economy on an append-only ledger, with SQL written by hand, including a window-function CTE.
 - Rewrote it in C# as [theaBot](https://github.com/theruvial/theaBot) (2022): .NET 6, Discord.NET, dependency injection and slash commands.
 - Extended it in 2026 (AI-assisted): an audiobook request site, a `/wiki` command and cogs that update themselves from GitHub.
 
 **Co-op multiplayer Unity game** — Aboard the Astra · 4-person team · C# · *2020 – 2021, resumed 2026*
-- Wrote 247 commits: boss AI and cutscenes, status effects, a combat overhaul and client/server sync fixes.
+- Wrote 247 commits: boss behaviours and cutscenes, status effects, a combat overhaul and client/server sync fixes.
 
 **Turn-based Unity game** — Rouge · 5-person team (work in progress) · C# · *2023 – 2025*
 - Wrote 380+ commits and merged 44 pull requests: hero abilities, status effects, items, traits and a JSON save system.
 
 ### Self-designed, built with AI coding tools (2026)
 
-**[AstraThought](https://github.com/theruvial/AstraThought)** — task classifier · Python, SetFit, PyTorch · *2026*
+**Task classifier** — [AstraThought](https://github.com/theruvial/AstraThought) · Python, SetFit, PyTorch · *2026*
 - Trained the model on 1,911 hand-labelled messages; it scores 98% precision and 92% recall on 60 real messages it never saw. Unsure calls go to a human, and each ruling becomes new training data.
 
-**Mechanics wiki, Aboard the Astra Remake** — Python, HTML/CSS/JS · *2026*
-- Generates a 19-page wiki from the game's source code. The backend rejects any request without its shared secret and checks GitHub webhook signatures with HMAC.
+**Game mechanics wiki** — Aboard the Astra Remake · Python, HTML/CSS/JS · *2026*
+- Generated a 19-page wiki from the game's source code. The backend rejects any request without its shared secret and checks GitHub webhook signatures with HMAC.
 
 ### Infrastructure
 
 **Homelab and Linux** — self-run · Proxmox VE, ZFS, nginx, Arch Linux
-- Proxmox VE with TrueNAS and Ubuntu Server VMs on ZFS (handled the 8 → 9 upgrade); nginx reverse proxy with Let's Encrypt; Pi-hole + Unbound DNS.
-- Arch Linux as main OS for 4+ years on Btrfs with snapshots, recovered many times from broken NVIDIA driver updates.
+- Proxmox VE with TrueNAS and Ubuntu Server VMs on ZFS, including the Proxmox 8 → 9 major upgrade; nginx reverse proxy with Let's Encrypt; Pi-hole + Unbound DNS.
+- Arch Linux as main OS for 4+ years on Btrfs with snapshots, repeatedly recovering it from broken NVIDIA driver updates.
 
 ## Experience
 
