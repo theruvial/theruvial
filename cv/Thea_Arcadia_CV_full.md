@@ -6,7 +6,7 @@ theruvial237@gmail.com · [linkedin.com/in/theaarcadia](https://www.linkedin.com
 
 ## Summary
 
-Self-taught developer with 7 years of personal projects (2019–present), strongest in Python, also C#/.NET and Unity. Built and ran Astrabot, a Discord bot with a PostgreSQL/SQLite ledger economy, and contributed hundreds of hand-written commits to two team Unity games. Run Arch Linux as my main OS and keep my own homelab on Proxmox, ZFS and nginx. Since 2026 I also design projects and direct AI coding tools to build them, including a text classifier I trained myself. Seeking an entry-level Python, automation or junior developer role, remote or in the Tampa Bay area.
+Self-taught developer with 7 years of personal projects (2019–present), strongest in Python, also C#/.NET and Unity. Built and ran Astrabot, a Discord bot with a PostgreSQL/SQLite ledger economy, and contributed hundreds of hand-written commits to two team Unity games. Arch Linux as main OS, plus a self-run homelab on Proxmox, ZFS and nginx. Since 2026, also designing projects and directing AI coding tools to build them, including a self-trained text classifier. Seeking an entry-level Python, automation or junior developer role, remote or in the Tampa Bay area.
 
 ## Technical Skills
 
@@ -45,7 +45,7 @@ Self-taught developer with 7 years of personal projects (2019–present), strong
 
 ### Hand-written work (2019–2025)
 
-**Astrabot and theaBot** — my Discord bot and its C# rewrite · Python, discord.py, PostgreSQL, SQLite · C#, .NET 6, Discord.NET · *2019 – present* · [github.com/theruvial/Astrabot](https://github.com/theruvial/Astrabot)
+**Astrabot and theaBot** — Discord bot and its C# rewrite · Python, discord.py, PostgreSQL, SQLite · C#, .NET 6, Discord.NET · *2019 – present* · [github.com/theruvial/Astrabot](https://github.com/theruvial/Astrabot)
 
 - Built Astrabot as an async, event-driven bot with reaction roles, a points economy, gambling, a shop and task tracking.
 - Designed an append-only ledger for the bot's currency, so every balance change is recorded.
@@ -58,7 +58,7 @@ Self-taught developer with 7 years of personal projects (2019–present), strong
 - Wrote 247 commits: boss behaviours and cutscenes, status effects, a combat overhaul and new enemy types.
 - Fixed client/server bugs, such as cutscenes and animations not syncing to clients.
 - Cut rendering cost by drawing the starfield as a canvas image instead of projecting it onto a 3D object.
-- Development resumed in October 2026 as a Unity 6 remake with Netcode for GameObjects, which I'm working on with the original team.
+- Development resumed in October 2026 as a Unity 6 remake with Netcode for GameObjects, now in progress with the original team.
 
 **Turn-based Unity game** — Rouge · 5-person team (work in progress) · C# · *2023 – 2025*
 
@@ -73,11 +73,11 @@ Self-taught developer with 7 years of personal projects (2019–present), strong
 
 - Converts a Google Takeout CSV into batches of YouTube channel links, with a step-by-step user guide.
 
-### Designed by me, built with AI coding tools (2026)
+### Self-designed, built with AI coding tools (2026)
 
 **AstraThought** — task classifier for Discord · Python, SetFit, PyTorch, AI-assisted · [github.com/theruvial/AstraThought](https://github.com/theruvial/AstraThought)
 
-- Trained the model myself: 98% precision and 92% recall on 60 real Discord messages with human rulings, and 94% precision and 98% recall on a harder 100-row stress set.
+- Trained the model to 98% precision and 92% recall on 60 real Discord messages with human rulings, and 94% precision and 98% recall on a harder 100-row stress set.
 - Hand-labelled 1,911 training rows plus 1,000 synthetic ones; retrains after every 50 new human labels.
 - Runs as a local, loopback-only service. Unsure calls go to a human through Discord approve/disagree buttons, and each ruling becomes new training data.
 
@@ -89,13 +89,13 @@ Self-taught developer with 7 years of personal projects (2019–present), strong
 **Audiobook requests and signup** — Python, SQLite, SMTP, nginx, AI-assisted
 
 - Discord cog and web UI for audiobook requests, with email notifications and an admin-only dashboard.
-- Signup service that creates scoped users on my Audiobookshelf server, behind nginx.
+- Signup service that creates scoped users on a self-hosted Audiobookshelf server, behind nginx.
 
 ### Homelab and Linux (self-run)
 
-- Proxmox VE host running TrueNAS and Ubuntu Server VMs on ZFS; did the 8 → 9 major upgrade myself, including repo repair.
+- Proxmox VE host running TrueNAS and Ubuntu Server VMs on ZFS; handled the 8 → 9 major upgrade, including repo repair.
 - nginx reverse proxy with Let's Encrypt for several subdomains; Pi-hole + Unbound on a Raspberry Pi for home DNS.
-- Have run a vanilla Arch Linux install as my main OS for 4+ years on Btrfs with snapshots, and repeatedly recovered it from broken NVIDIA driver and kernel updates ([dotfiles](https://github.com/theruvial/dotfiles)).
+- Ran vanilla Arch Linux as main OS for 4+ years on Btrfs with snapshots, repeatedly recovering it from broken NVIDIA driver and kernel updates ([dotfiles](https://github.com/theruvial/dotfiles)).
 
 ## Education
 
