@@ -36,7 +36,7 @@
 ## How I work
 
 - **Hand-written, 2019–2025:** Astrabot's original bot, theaBot, both Unity games and Subscription Parser are my own code, written before AI coding tools.
-- **AI-assisted, 2026:** I designed AstraThought, Astrabot's newer features and my web services, then directed AI coding tools to build them. I can walk through every design decision.
+- **AI-assisted, 2026:** I designed AstraThought, Astrabot's newer features and my web services, then orchestrated AI coding tools to build them. I can walk through every design decision.
 
 ## Homelab
 
