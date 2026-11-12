@@ -6,7 +6,7 @@ theruvial237@gmail.com · [linkedin.com/in/theaarcadia](https://www.linkedin.com
 
 ## Summary
 
-Self-taught developer with 7 years of personal projects (2019–present), strongest in Python, also C#/.NET and Unity. Built and ran Astrabot, a Discord bot with a PostgreSQL/SQLite ledger economy, and contributed hundreds of hand-written commits to two team Unity games. Arch Linux as main OS, plus a self-run homelab on Proxmox, ZFS and nginx. Since 2026, also designing projects and directing AI coding tools to build them, including a self-trained text classifier. Seeking an entry-level Python, automation or junior developer role, remote or in the Tampa Bay area.
+Self-taught developer with 7 years of personal projects (2019–present), strongest in Python, also C#/.NET and Unity. Built and ran Astrabot, a Discord bot with a PostgreSQL/SQLite ledger economy, and contributed hundreds of hand-written commits to two team Unity games. Arch Linux as main OS, plus a self-run homelab on Proxmox, ZFS and nginx. Since 2026, also designing projects and orchestrating AI coding tools to build them, including a self-trained text classifier. Seeking an entry-level Python, automation or junior developer role, remote or in the Tampa Bay area.
 
 ## Technical Skills
 
